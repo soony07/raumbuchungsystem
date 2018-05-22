@@ -1,0 +1,126 @@
+﻿
+/* Vertikale Zeile für online status */
+.header_online {
+  position: fixed;
+    top: 0px;
+    margin-left:0px;
+    width: 70px;
+    height: 100%;
+    float: left;
+     overflow:hidden;
+
+  font-weight: bold;
+  color: #E3F2FD;
+  text-align: center;
+  background: #8BC34A;
+
+}
+
+/* Vertikale Zeile für offline status */
+
+.header_offline {
+
+  position: fixed;
+    top: 0px;
+    margin-left:0px;
+    width: 70px;
+    height: 100%;
+    float: left;
+    overflow:hidden;
+
+  font-weight: bold;
+  color: #E3F2FD;
+  text-align: center;
+  background: #D84315;
+
+}
+
+/* Schrift Anpassungen für Offline Status */
+
+h1.header_text_offline {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+margin:20px;
+margin-top: 50%;
+width: 50px;
+min-height: 130%;
+text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+font-size: 35px;
+word-wrap: break-word;
+letter-spacing: 18px;
+
+}
+
+/* Schrift Anpassungen für Online Status */
+
+h1.header_text_online {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  margin:20px;
+  margin-top: 200%;
+  width: 5px;
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+  font-size: 35px;
+  word-wrap: break-word;
+  letter-spacing: 18px;
+}
+
+/* Kalendar Anpassung */
+.dwm_main {
+position: static;
+ margin-left: 70px;
+ top: 0px;
+ height: 88.1%;
+ text-align: center;
+}
+
+
+
+
+.dwm_main th a:link {
+  font-size: 25px;
+  text-align: center;
+  display: visible;
+
+}
+
+/* definiert die Länge und Breite des Kalenders */
+
+table.dwm_main {
+width: 95.4%;
+height: 94.5%;
+}
+
+
+
+
+/* Halbstundige Zeit löschen */
+.dwm_main tr:nth-child(even) td:nth-child(1) a{
+ display:none;
+
+}
+
+ /* Border löschen */
+ .dwm_main tr:nth-child(even) td:nth-child(1){
+  border-top: 1px #456f7f;
+}
+
+
+/* Jede zweite Zeile(odd_row) verkleinen */
+.odd_row {
+
+    min-height: 1%;
+    max-height: 1%;
+    height: 1%;
+}
+
+/*  */
+ tr.odd_row a {
+  /* display:none; */
+  color: #000000;
+}
+
+/* spalte mit aktuellem datum */
+
+.dwm_main th:nth-child(2){
+  background-color: rgb(70, 153, 194);
+
+}

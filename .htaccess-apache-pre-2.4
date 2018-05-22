@@ -1,0 +1,17 @@
+Order deny,allow
+Deny from All
+
+AuthLDAPURL ldaps://ldaps.aau.at/ou=users,ou=sci,DC=ldap,DC=aau,DC=at?cn?sub?(objectClass=inetOrgPerson)
+AuthLDAPBindDN cn=ldap_zidsks_ub,ou=users,dc=ldap,dc=aau,dc=at
+AuthLDAPBindPassword u!mZd4cP
+
+AuthName "DB Zugang fuer MitarbeiterInnen"
+AuthType Basic
+AuthBasicProvider ldap
+AuthzLDAPAuthoritative off
+AuthLDAPGroupAttribute memberUid
+
+<Limit GET>
+require valid-user
+</Limit>
+</Files>

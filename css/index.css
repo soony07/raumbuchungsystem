@@ -1,0 +1,150 @@
+
+/* Anmeldeform zur mitte bewegen */
+ /* form#logon {
+  width: 1%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+
+/* Login Page --> Checkbox */
+ input.checkbox2{
+   width:1em;
+}
+
+
+
+/* Login Page --> Warning text before checkbox*/
+ label.labeltext{
+   /* left: 2%; */
+   /* text-align:right; */
+  /* display: flex;
+  left: 3.5%;
+  position: fixed;
+  margin: 4% 0 0 0;
+
+height :auto; */
+}
+
+
+  #logon label.labeltext {
+  max-width:13em;
+}
+
+/* Login Page --> Submit Button*/
+
+
+ input.submit2 {
+   margin: 6%;
+
+}
+/* Buttons Style */
+
+input.submit2:hover{
+background-color: #f9f9f9;
+}
+
+/*Login Page -> edit_entry*/
+.edit_entry .form_general label {
+    width: 13em;
+}
+
+/* Buttons Style */
+/* input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button:hover  {
+  background-color: ; */
+/* } */
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button  {
+  background-color: #f9f9f9; /* White */
+    border: none;
+    color:rgb(89, 89, 89);
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 0.5px solid #474747; /* Black */
+
+    font-size: 14px;
+}
+/* Rand zum Wochenkalender  */
+#week_main{
+  border: 1px solid #4b667a;
+  /* width: 90%; */
+}
+
+/* Rand zum Tageskalender  */
+#day_main{
+  border: 1px solid #4b667a;
+  /* width: 90%; */
+}
+
+/* Dreimonatskalendar "mini cals" verstecken*/
+
+/* #cal_last {
+  display: none;
+} */
+
+/* In der Detailansicht werden keine Benutzernamen angezeigt */
+#entry tr:nth-child(8), #entry tr:nth-child(9) {
+  display: none;
+}
+
+/* Booked Room Titel */
+.dwm_main tbody a {
+    padding: 0 2px;
+    text-align: center;
+}
+
+/* Header-->Logo und Text(Raumbuchungssystem) */
+
+li.company{
+  width:30px;/* do not mind flex, just set a width if that speaks to you */
+}
+div.company {
+  display: flex;
+  align-items: baseline;
+  padding: 0.3em 1.2em;
+  width:50%;/* do not mind flex, just set a width if that speaks to you */
+  font-size: large;
+
+  }
+/* Logo */
+div.logo {
+  margin-left:20px;
+
+}
+
+/*  Text(Raumbuchungssystem) */
+div.mrbs {
+  margin-left: 42px;
+  margin-right: -180px;
+  font-size: 150%;
+}
+
+/* Liste der Räume */
+
+#dwm_header h3 {
+font-size: large;
+}
+
+#dwm_header ul {
+  font-size: large;
+}
+
+
+
+
+
+
+/* Footer verstecken */
+#trailer div{  display:none;
+}
+
+
+
+#screenonly {display: none;}
+#trailer{display: none;}
+
+/* table.dwm_main {
+ width: 80.4%;
+height: 70.0%;
+} */

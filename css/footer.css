@@ -1,0 +1,13 @@
+/* Footer Anpassungen für den Kiosk */
+
+.footer {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #456f7f;
+    margin-left: 70px;
+    margin-right: 0px;
+    color: white;
+    text-align: center;
+}
