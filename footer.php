@@ -7,7 +7,7 @@
         <footer>
 
           <div class="footer">
-            <p>Wenn Sie den Raum buchen wollen, besuchen Sie die Seite: ub.aau.at - If you want to book the room, visit the page: ub.aau.at</p>
+            <p>Für Raumbuchungen besuchen Sie bitte unsere Webseite: ub.aau.at - If you want to book the room, visit the page: ub.aau.at</p>
                     </div>
 
         </footer>

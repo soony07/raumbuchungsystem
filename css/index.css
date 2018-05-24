@@ -103,21 +103,21 @@ div.company {
   display: flex;
   align-items: baseline;
   padding: 0.3em 1.2em;
-  width:50%;/* do not mind flex, just set a width if that speaks to you */
+  width:75%;/* do not mind flex, just set a width if that speaks to you */
   font-size: large;
 
   }
 /* Logo */
 div.logo {
-  margin-left:20px;
+  margin-left:-10px;
 
 }
 
 /*  Text(Raumbuchungssystem) */
 div.mrbs {
-  margin-left: 42px;
-  margin-right: -180px;
-  font-size: 150%;
+  margin-left:10px;
+  margin-right: -70px;
+  font-size: 130%;
 }
 
 /* Liste der Räume */
