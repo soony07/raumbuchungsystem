@@ -130,7 +130,34 @@ font-size: large;
 }
 
 
+/* Neue Buchung Button Style*/
+form.neuebuchung{
 
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   /* display: inline-block; */
+   font-size: 16px;
+   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input.neuebuchungbutton{
+  background-color: rgba(70, 153, 194); /* UNI DUNKELBLAU */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   /* display: inline-block; */
+   font-size: 16px;
+   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
 
 
 

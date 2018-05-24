@@ -37,8 +37,15 @@ print_header($day, $month, $year, $area, isset($room) ? $room : null);
 
 echo "<div id=\"dwm_header\" class=\"screenonly\">\n";
 
+
+
 // Show all available areas
 echo make_area_select_html('week.php', $area, $year, $month, $day);
+
+
+echo "<form class='neuebuchung' method='link' action='/edit_entry.php'/>";
+echo "<input class='neuebuchungbutton' type='submit' value='Neue Buchung'/>";
+echo "</form>";
 // Show all available rooms in the current area:
 echo make_room_select_html('week.php', $area, $room, $year, $month, $day);
 
