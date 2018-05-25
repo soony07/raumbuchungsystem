@@ -48,6 +48,10 @@ if (!$display_calendar_bottom)
 
 echo "</div>\n";
 
+echo "<form class='neuebuchung' method='link' action='/edit_entry.php'/>";
+echo "<input class='neuebuchungbutton' type='submit' value='Neue Buchung'/>";
+echo "</form>";
+
 
 //y? are year, month and day of yesterday
 //t? are year, month and day of tomorrow
