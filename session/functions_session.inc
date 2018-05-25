@@ -62,8 +62,10 @@ function print_login_form($action, $target_url, $returl)
   $fieldset->addElement($field);
 
   // The password field
+
   $field = new FieldInputPassword();
   $field->setLabel(get_vocab('users.password'))
+        ->setControlAttributes(array('placeholder' => 'Password'))
         ->setControlAttributes(array('id'          => 'password',
                                      'name'        => 'password'));
   $fieldset->addElement($field);
@@ -72,7 +74,7 @@ function print_login_form($action, $target_url, $returl)
 
    $field = new ElementLabel();
 
-   $field->setText('I accept the policies');
+   $field->setText('Ich akzeptiere die Nutzungsbedingungen');
    $field->setAttributes(array('class' =>'labeltext'));
 
    $fieldset->addElement($field);

@@ -28,7 +28,7 @@ height :auto; */
 
 
   #logon label.labeltext {
-  max-width:13em;
+  max-width:23em;
 }
 
 /* Login Page --> Submit Button*/
@@ -136,23 +136,22 @@ form.neuebuchung{
    padding: 15px 32px;
    text-align: center;
    text-decoration: none;
-   /* display: inline-block; */
-   font-size: 16px;
-   display: inline-flex;
-  align-items: center;
-  justify-content: center;
+   display: block;
+   font-size: 1.5em;
+   -webkit-margin-before: 0.83em;
+   -webkit-margin-after: 0.83em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
+   font-weight: bold;
 }
 
 input.neuebuchungbutton{
-  background-color: rgba(70, 153, 194); /* UNI DUNKELBLAU */
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   /* display: inline-block; */
-   font-size: 16px;
-   display: inline-flex;
+  background-color: rgba(51, 107, 129); /* UNI DUNKELBLAU */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
   align-items: center;
   justify-content: center;
 

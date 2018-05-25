@@ -43,9 +43,6 @@ echo "<div id=\"dwm_header\" class=\"screenonly\">\n";
 echo make_area_select_html('week.php', $area, $year, $month, $day);
 
 
-echo "<form class='neuebuchung' method='link' action='/edit_entry.php'/>";
-echo "<input class='neuebuchungbutton' type='submit' value='Neue Buchung'/>";
-echo "</form>";
 // Show all available rooms in the current area:
 echo make_room_select_html('week.php', $area, $room, $year, $month, $day);
 
@@ -54,8 +51,12 @@ if (!$display_calendar_bottom)
 {
   minicals($year, $month, $day, $area, $room, 'week');
 }
-
 echo "</div>\n";
+
+echo "<form class='neuebuchung' method='link' action='/edit_entry.php'/>";
+echo "<input class='neuebuchungbutton' type='submit' value='Neue Buchung'/>";
+echo "</form>";
+
 
 // Show area and room:
 // Get the area and room names
