@@ -8,6 +8,7 @@ require_once "mincals.inc";
 require_once "functions_table.inc";
 require_once "style.inc";
 echo "<meta http-equiv=\"refresh\" content=\"60\">\n";
+echo "<html lang='de' xml:lang='de' xmlns='http://www.w3.org/1999/xhtml' debug='true'>";
 
 // HEADER import
 include_once("header.php");

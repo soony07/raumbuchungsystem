@@ -73,15 +73,15 @@ function print_login_form($action, $target_url, $returl)
   //
 
    $field = new ElementLabel();
-   
-   $link = "javascript:location.href='/nutzungsbedingungen.php'";
+   $url = "/nutzungsbedingungen.php";
+   $newtab = "window.open('$url', '_blank');";
 
 
    $field->setText('Ich akzeptiere die Nutzungsbedingungen');
 
    $field->setAttributes(array('class' =>'labeltext',
                                 'id' => 'test',
-                                'onclick' => $link));
+                                'onclick' => $newtab));
 
 
    $fieldset->addElement($field);
