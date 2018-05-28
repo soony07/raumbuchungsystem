@@ -214,7 +214,7 @@ $vocab["none_outstanding"]   = "Sie haben keine Einträge, die genehmigt werden 
 // Authentication stuff
 $vocab["accessdenied"]       = "Zugang verweigert";
 $vocab["norights"]           = "Sie haben keine Berechtigung, diesen Eintrag zu ändern";
-$vocab["please_login"]       = "Bitte melden Sie sich mit ihren AAU Benutzeranmeldedaten";
+$vocab["please_login"]       = "Bitte melden Sie sich mit Ihren AAU Benutzeranmeldedaten";
 $vocab["users.name"]         = "Benutzername";
 $vocab["users.password"]     = "Passwort";
 $vocab["users.level"]        = "Rechte";

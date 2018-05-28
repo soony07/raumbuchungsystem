@@ -1,5 +1,7 @@
 
 /* Anmeldeform zur mitte bewegen */
+
+
  /* form#logon {
   width: 1%;
   margin-left: auto;
@@ -13,27 +15,13 @@
 }
 
 
-
-/* Login Page --> Warning text before checkbox*/
- label.labeltext{
-   /* left: 2%; */
-   /* text-align:right; */
-  /* display: flex;
-  left: 3.5%;
-  position: fixed;
-  margin: 4% 0 0 0;
-
-height :auto; */
-}
-
-
   #logon label.labeltext {
   max-width:23em;
+  text-decoration: underline;
 }
 
+
 /* Login Page --> Submit Button*/
-
-
  input.submit2 {
    margin: 6%;
 

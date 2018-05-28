@@ -15,6 +15,11 @@ use MRBS\Form\FieldSelect;
 require "defaultincludes.inc";
 
 
+ echo "<script language='JavaScript' type='text/JavaScript'>";
+echo "document.getElementById('test').innerText = 'your tip has been submitted!'";
+echo "</script>";
+
+
 function generate_room_delete_form($room, $area)
 {
   $form = new Form();

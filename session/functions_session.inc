@@ -73,9 +73,16 @@ function print_login_form($action, $target_url, $returl)
   //
 
    $field = new ElementLabel();
+   
+   $link = "javascript:location.href='/nutzungsbedingungen.php'";
+
 
    $field->setText('Ich akzeptiere die Nutzungsbedingungen');
-   $field->setAttributes(array('class' =>'labeltext'));
+
+   $field->setAttributes(array('class' =>'labeltext',
+                                'id' => 'test',
+                                'onclick' => $link));
+
 
    $fieldset->addElement($field);
 
